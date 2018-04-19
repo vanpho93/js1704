@@ -1,6 +1,7 @@
 function getTotal(n) {
-    console.log('n =', n);
-    // return 10;
+    let sum = 0;
+    for (let i = 1; i <= n; i++) sum += i;
+    return sum;
 }
 
 console.log(getTotal(10));
